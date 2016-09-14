@@ -68,8 +68,11 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repo: git@github.com:chmodxw/chmodxw.github.io.git
+- type: git
+  repo: git@git.coding.net:chmodxw/chmodxw.git
+  branch: coding-pages
 # user avatar
 avatar: /images/avatar.jpg
 # duoshuo_shortname
